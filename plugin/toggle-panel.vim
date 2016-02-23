@@ -23,7 +23,7 @@ function! s:ToggleLocationList()
 	endif
 endfunction
 
-function s:GetBufferTitle(buffer_id)
+function! s:GetBufferTitle(buffer_id)
 	redir => output
 	silent ls
 	redir end
